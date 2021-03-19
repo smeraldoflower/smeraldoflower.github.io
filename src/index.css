@@ -64,3 +64,17 @@ a{
   color: inherit;
   text-decoration: inherit;
 }
+
+.Footer{
+  background: #1e2127a2;
+  color: inherit;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  padding: 2% 0%;
+  margin: 2px 0px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
