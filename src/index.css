@@ -17,7 +17,7 @@ code {
 .App{
   background: #d893f371;
   margin: 20px auto;
-  padding: 2%;
+  padding: 2% 3%;
   width: 90%;
   max-width: 950px;
   color: rgb(255, 200, 237);
@@ -32,7 +32,35 @@ code {
   border-radius: 30px;
   border: 0.25pt solid rgb(255, 200, 237);
 }
-
 .navbar h1{
   margin: 10px 0;
+}
+.navbar-socials{
+  padding: 2px 2px;
+  margin: 5px 5px;
+  font-size: large;
+  border-top: 0.5pt solid rgb(255, 200, 237);
+  border-bottom: 0.5pt solid rgb(255, 200, 237);
+}
+.navbar-socials-icon{
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 22px;
+  border: 0.25pt solid rgb(255, 200, 237);
+  font-size: xx-large;
+  background: #59146ea6;
+}
+.navbar-socials-icon:hover{
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border-radius: 22px;
+  border: 0.20pt solid #59146eee;
+  color: #59146ecc;
+  font-size: xx-large;
+  background: rgb(255, 200, 237);
+  cursor: pointer;
+}
+a{
+  color: inherit;
+  text-decoration: inherit;
 }
